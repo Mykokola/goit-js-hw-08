@@ -19,8 +19,10 @@ formEl.addEventListener('input', e => {
   throttle(localStorage.setItem('feedback-form-state', JSON.stringify(result)),500)  
 });
 formEl.addEventListener('submit', e => {
+  if(emailEl.value === ""|| messageEl.value === ""){
+    alert("Введіть значення")
+  }
   e.preventDefault();
-  console.log(result);
   localStorage.removeItem('feedback-form-state')
   formEl.reset();
 });
