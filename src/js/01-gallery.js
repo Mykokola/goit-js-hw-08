@@ -1,8 +1,9 @@
 // Add imports above this line
-import { galleryItems } from './gallery-items';
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 // Change code below this line
+import { galleryItems } from './gallery-items';
+
 console.log(galleryItems);
 const galleryEl = document.querySelector('.gallery')
 galleryItems.forEach(e => {
