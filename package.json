@@ -2,9 +2,9 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://mykokola.github.io/goit-js-hw-08/",
+  "homepage": "https://Iryna-Vyshniak.github.io/goit-js-hw-08",
   "scripts": {
-    "start": "parcel src/*.html ",
+    "start": "parcel src/*.html -p 505 --open",
     "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
   },
   "repository": {
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
   "keywords": [],
-  "author": "Mykola Vladymyrskiy <j0kfrbr@gmail.com>",
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
