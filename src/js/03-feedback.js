@@ -1,5 +1,4 @@
 import throttle from 'lodash.throttle';
-function feedbackModule() {
   const formEl = document.querySelector('.feedback-form');
   const result = {};
   const emailEl = document.querySelector('[name="email"]');
@@ -26,7 +25,6 @@ function feedbackModule() {
     }
     e.preventDefault();
     localStorage.removeItem('feedback-form-state')
+    console.log(result)
     formEl.reset();
   });
-};
-feedbackModule()
